@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Layerform Studio",
+  name: "My 3D Paradise",
   role: "3D Printing & Product Prototyping",
   description:
     "Functional prototypes, presentation models, small-batch parts, and custom 3D-printed objects.",
-  contactEmail: "hello@yourdomain.com",
+  contactEmail: "?",
   nav: [
     { label: "Work", href: "#work" },
     { label: "Services", href: "#services" },

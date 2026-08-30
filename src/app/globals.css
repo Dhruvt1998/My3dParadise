@@ -610,3 +610,45 @@ a {
     min-height: 220px;
   }
 }
+
+/* Inquiry form status */
+
+.submit-button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.form-status {
+  margin: 0;
+  padding: 14px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.form-status--success {
+  border: 1px solid #3f6347;
+  background: #16251a;
+  color: #cce8d1;
+}
+
+.form-status--error {
+  border: 1px solid #70403f;
+  background: #2b1717;
+  color: #f0cccc;
+}
+
+/*
+  Invisible field used as a simple spam trap.
+  Real visitors never see it.
+*/
+
+.form-honeypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
