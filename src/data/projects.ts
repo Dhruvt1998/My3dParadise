@@ -10,13 +10,13 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Vent Housing",
+    title: "Cable Winder",
     category: "Functional Prototype",
     description:
-      "A dimensionally accurate enclosure used to validate airflow, fastener placement, and assembly.",
+      "cable windier info",
     material: "PETG",
     finish: "Raw / Technical",
-    image: "/projects/vent-housing.svg",
+    image: "/projects/CableWinder.jpeg",
     accent: "01"
   },
   {
@@ -38,5 +38,15 @@ export const projects: Project[] = [
     finish: "Matte",
     image: "/projects/clamp-system.svg",
     accent: "03"
+  },
+  {
+    title: "Cable Winder",
+    category: "Functional Prototype",
+    description:
+        "cable windier info",
+    material: "PETG",
+    finish: "Raw / Technical",
+    image: "/projects/CableWinder.jpeg",
+    accent: "05"
   }
 ];

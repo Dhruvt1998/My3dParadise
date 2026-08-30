@@ -1,15 +1,14 @@
 import { Container } from "@/components/atoms/Container";
 import { siteConfig } from "@/config/site";
+import Image from "next/image";
 
 export function Header() {
   return (
     <header className="site-header">
       <Container className="site-header__inner">
         <a className="brand" href="#top" aria-label={`${siteConfig.name} home`}>
-          <span className="brand__mark" aria-hidden="true">
-            ◫
-          </span>
-          <span>{siteConfig.name}</span>
+          <Image src="/logo.png" alt={siteConfig.name} width={112} height={112} className="brand__logo" priority />
+          <span className="brand__text">{siteConfig.name}</span>
         </a>
 
         <nav className="nav" aria-label="Primary navigation">

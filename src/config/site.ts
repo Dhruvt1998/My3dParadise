@@ -3,7 +3,7 @@ export const siteConfig = {
   role: "3D Printing & Product Prototyping",
   description:
     "Functional prototypes, presentation models, small-batch parts, and custom 3D-printed objects.",
-  contactEmail: "?",
+  contactEmail: "dhruvt360@gmail.com",
   nav: [
     { label: "Work", href: "#work" },
     { label: "Services", href: "#services" },
