@@ -16,7 +16,7 @@ export const projects: Project[] = [
       "cable windier info",
     material: "PETG",
     finish: "Raw / Technical",
-    image: "/projects/CableWinder.jpeg",
+    image: "/projects/CableWinder.webp",
     accent: "01"
   },
   {
@@ -46,7 +46,7 @@ export const projects: Project[] = [
         "cable windier info",
     material: "PETG",
     finish: "Raw / Technical",
-    image: "/projects/CableWinder.jpeg",
+    image: "/projects/CableWinder.webp",
     accent: "05"
   }
 ];

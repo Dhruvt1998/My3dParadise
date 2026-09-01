@@ -7,7 +7,7 @@ export function Header() {
     <header className="site-header">
       <Container className="site-header__inner">
         <a className="brand" href="#top" aria-label={`${siteConfig.name} home`}>
-          <Image src="/logo.png" alt={siteConfig.name} width={112} height={112} className="brand__logo" priority />
+          <Image src="/logo.webp" alt={siteConfig.name} width={112} height={112} className="brand__logo" priority />
           <span className="brand__text">{siteConfig.name}</span>
         </a>
 
