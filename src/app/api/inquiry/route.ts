@@ -70,8 +70,8 @@ export async function POST(request: Request) {
         const apiKey = process.env.RESEND_API_KEY;
         const contactEmail = process.env.CONTACT_EMAIL;
         const fromEmail =
-            process.env.FROM_EMAIL ??
-            "My3dParadise <onboarding@resend.dev>";
+            process.env.FROM_EMAIL?.trim() ||
+            "onboarding@resend.dev";
 
         if (!apiKey || !contactEmail) {
             console.error(
