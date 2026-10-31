@@ -1,0 +1,13 @@
+services:
+  app:
+    image: ghcr.io/dhruvt1998/my3dparadise:${IMAGE_TAG:-latest}
+
+    container_name: my3dparadise
+
+    restart: unless-stopped
+
+    env_file:
+      - .env.production
+
+    ports:
+      - "127.0.0.1:3000:3000"
